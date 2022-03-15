@@ -1,10 +1,16 @@
-body {
-    background-color: darkblue;
-    color: white;
-    display:flex;
-    align-self: auto;
+body 
+{
+  background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325353/why-is-sleep-important.jpg");
+  background-color: #cccccc;
+  text-align: center;
+  font-size: large;
 }
-.horror-text {
+header 
+{
+  font-size:x-large;
+}
+.horror-text 
+{
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-name: flickering;
@@ -12,7 +18,7 @@ body {
     color: #912914;
     font-family: 'UnifrakturCook', cursive;
     font-size: 96px;
-  }
+}
   
   @keyframes flickering {
     0% {
@@ -151,4 +157,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  
+img {
+  height: 100px;
+  width: 100px;
+}
